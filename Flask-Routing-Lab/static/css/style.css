@@ -1,1 +1,19 @@
+#cart{
+	position: relative;
+	left: 890px ;
+	top:-110px;
+}
 
+body{
+	background:lightyellow;
+}
+
+.product:hover{
+	opacity: 0.5;
+}
+
+#cookie:{
+	position: relative;
+	left: 890px ;
+	top:-110px;
+}
