@@ -1,7 +1,8 @@
 #cart{
-	position: relative;
-	left: 890px ;
-	top:-110px;
+	display: flex;
+	position: fixed	;
+	left: 1790px ;
+	top:-0;
 }
 
 body{
@@ -12,8 +13,22 @@ body{
 	opacity: 0.5;
 }
 
-#cookie:{
+#products{
 	position: relative;
-	left: 890px ;
-	top:-110px;
+	left: 140px ;
+	top:-0px;
 }
+
+#products.horizontal-list {
+	list-style-type: none;  /* Remove default list styles */
+	display: flex;          /* Use flexbox layout */
+  }
+  
+  #products.horizontal-list li {
+	margin-right: 10px;     /* Add some spacing between list items */
+  }
+
+  #cookie {
+	width: 200px;
+	height: 200px;
+  }

@@ -3,8 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Cart</title>
+    <style>
+
+        body{
+            background: lightyellow ;
+        }
+
+        #Checkout{
+            position: relative;
+            left: 1500px;
+            top: 0px;
+            background-color: rgb(255, 250, 160);
+            height: 300px;
+            width: 330px;
+        }
+
+        #checkbtn{
+
+            width: 300px;
+            height: 40px;
+            background-color: rgb(255, 250, 130);
+            border-radius: 12px;
+            
+        }
+
+        #checkbtn:hover{
+            background-color: rgb(255, 251, 130);
+        }
+        
+        #center{
+            position: fixed;
+            top: 160px;
+            left:1520px;
+        }
+    </style>
 </head>
 <body>
+    <!-- Item List -->
+    <div>
+    <h1>Current Items: (0)</h1>
+    <ul>
+        <li><p>None</p></li>
+    
 
+
+
+
+    </ul>
+    <!-- Check Out Button -->
+    <div id="Checkout">
+        <div id="center">
+        <h2>Total amount of items (0)</h2>
+        <h2>Price: 0.00$ </h2>
+        <Button id="checkbtn"> Checkout</Button>
+        </div>
+    </div>
+    <div id="box"></div>
+
+    </div>
 </body>
 </html>
